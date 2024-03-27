@@ -172,7 +172,8 @@
 <!-- fin cabecera nav bar-->
 <main>
  
-  <section class="py-5 text-center container">
+  <!-- titulo de articulo pagina-->
+  <section class="py-5 text-center container" style="margin-top: 20px;">
     <div class="row py-lg-5" style="background-image: url('img/voley3.jpg');background-size: cover;">
       <div class="col-lg-6 col-md-8 mx-auto">
         <h1 class="fw-light" style="color: aliceblue;">Voleyball</h1>
@@ -182,9 +183,9 @@
     </div>
   </section>
 
+  <!-- contenido del articulo -->
   <div class="album py-5 bg-body-tertiary">
     <div class="container">
-
       <div class="row row-cols-1">
         
         <!-- incio titulo -->
@@ -192,9 +193,7 @@
           <div class="card shadow-sm" style="background-image: url('img/fondo_deporte.jpg');">            
             <div class="card-body">
               <p class="card-text" ><h1 style="color: aliceblue;">Articulos de Voleyball</h1></p>
-              <div class="d-flex justify-content-between align-items-center">
-               
-                
+              <div class="d-flex justify-content-between align-items-center">                
               </div>
             </div>
           </div>
@@ -204,26 +203,36 @@
 
         <div class="col">
           <div class="row"  style="border: 3px black solid;border-radius: 10px 10px 10px 10px; margin-top: 15px;box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);">
+            <!-- imagen del articulo-->
             <div class="col-5"  >
               <img src="img/art_voley1.jpg" width="100%" height="100%" alt="" srcset="">
             </div>
+            <!-- fin imagen del articulo-->
+
             <div class="col-7">
               <div class="row" >
-
+                  
+                <!-- Titulo -->
                   <div style="background-color: #9687b6;">
                     <h5>Molten</h5>
-                    <h1 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Pelota de Voley</h1>
+                    <h1 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+                      Pelota de Voley
+                    </h1>
                   </div>
+                  
+                  <!-- Precio -->
                   <div style="text-align: right ;padding: 5px;background-color: rgb(202, 202, 37);font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
                     Precio: $30.000
-                  </div>                  
+                  </div>
+                  
+                  <!-- texto acerca del articulo -->                  
                   <div class="card shadow-sm">
                     <div class="card-body">
                       <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel ullam architecto quam hic eaque ea. In enim eum impedit fugit ipsam sequi dolorum eos eligendi quasi? Harum assumenda obcaecati vitae. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </div>
                   </div>
 
-
+                  <!-- otros similares -->
                   <div class="card shadow-sm">
                     <div class="card-body">
                       <p class="card-text">Otros Articulos Similares</p>
@@ -231,8 +240,11 @@
                       <img src="img/art_voley3.jpg" width="20%" alt="">
                       <img src="img/art_voley4.jpg" width="20%" alt="">
                       <img src="img/art_voley6.jpg" width="20%" alt="">
-                      <div class="d-flex justify-content-between align-items-center">
-                        
+                      <div class="d-flex justify-content-between">   
+                        <div class="btn-group" style="margin: auto;margin-top: 30px;">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Atras</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary" onclick="javascript:location.href='index.html'">Home</button>
+                        </div>     
                         <small class="text-body-secondary">4 Articulos</small>
                       </div>
                     </div>
@@ -240,19 +252,8 @@
 
               </div>
             </div>
-
-            </div>
           </div>
-            
-
         </div>
-
-        
-
-       
-
-
-
 
       </div>
     </div>
@@ -260,16 +261,14 @@
 
 </main>
 
+
 <footer class="text-body-secondary py-5">
   <div class="container">
-    <p class="float-end mb-1">
-      <a href="#">Back to top</a>
-    </p>
-    <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-    <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a href="../getting-started/introduction/">getting started guide</a>.</p>
+    
+    <p class="mb-1">Desarrollado por Axios S.A. para Sport Home 2024</p>
+    <p class="mb-0">Fono: (252 65 85 65), <a href="https://maps.app.goo.gl/F2DVw3trvpmatfHM7">Visitanos</a>.</p>
   </div>
-<!-- </footer>
-<script src="../assets/dist/js/bootstrap.bundle.min.js"></script> -->
+
 <script src="bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
