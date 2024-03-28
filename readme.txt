@@ -1,73 +1,17 @@
-plantillas a utilizar ALBUM para el listado de articulos, CAROUSEL pagina de inicio
+Proyecto Sport House
+--------------------
 
--- paginas necesarias
+- Sitio web de compra de Articulos Deportivos, consta de paginas de visualizacion de productos por
+  categorias, ademas de un login de acceso al administrador.
 
-. inicio
-. categorias
-. registro usuarios
-. recuperar constraseña
-. modificar perfil
-
-. usuario comprador con carro de compras
-. usuario administrador de los productos
-
-
-
-
+- Paginas Categorias: Futbol, Natacion, Voleyball, Basquetball, Tenis
+- Pagina de Quienes Somos
+- Pagina de Sucursales
+- Pagina Login
+- Pagina de Recuperar Contraseña
+- Pagina de Registro de Usuario
+- Pagina Administrativa
+- Pagina Proceso
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   <div class="collapse navbar-collapse" id="navbarCollapse">
-                              <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                                <li class="nav-item">
-                                  <button id="toggleMenuBtn" class="nav-link active" aria-current="page" href="#">Categorías</button>
-                                  <div id="sidebarMenu" class="sidebar-menu">
-                                    <ul class="nav flex-column">
-                                      <li class="nav-item">
-                                        <a class="nav-link active" href="#">NATACIÓN</a>
-                                      </li>
-                                      <li class="nav-item">
-                                        <a class="nav-link" href="#">FÚTBOL</a>
-                                      </li>
-                                      <li class="nav-item">
-                                        <a class="nav-link" href="#">VOLEYBALL</a>
-                                      </li>
-                                      <li class="nav-item">
-                                        <a class="nav-link" href="#">BASQUETBALL</a>
-                                      </li>
-                                      <li class="nav-item">
-                                        <a class="nav-link" href="#">TENNIS</a>
-                                      </li>
-                                      <li class="nav-item">
-                                        <a class="nav-link" href="#">OFERTAS</a>
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </li>
-                              </ul>
-                </div>
